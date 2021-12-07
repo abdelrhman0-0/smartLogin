@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home {
+    background-color: #24353F;
+   min-height: 100vh;
+    padding: 1px 0 50px;
+}
+input{
+    color: #fff!important;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+::placeholder{
+    color: #B6B69B !important;
+}
+.form-container{
+    background-color: #2c404d;
+    width: 60%;
+}

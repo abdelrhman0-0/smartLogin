@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+        <section id="home" class="d-none">
+            <div id="before-login" class="container form-container px-5 py-4 mt-5 text-center shadow-lg">
+                <h1 class="py-5 text-info">Smart Login System</h1>
+                <input type="text" class="form-control mb-3 bg-transparent" placeholder="Email">
+                <div class="alert alert-danger d-none">This email is already exist</div>
+                <div class="alert alert-danger d-none">This email is already exist</div>
+                <input type="password" class="form-control mb-5 bg-transparent" placeholder="Password">
+                <a id="signInBtn" class="btn btn-outline-info w-100 mb-3 ">Login</a>
+                <span class="text-white">Don’t have an account? <a  href="signUp.html">Sign up</a></span>
+            </div>
+            
+            <div id="after-login"  class="container form-container px-5 py-4 mt-5 text-center shadow-lg d-none">
+                
+            </div>
+
+        </section>
+        <section id="home">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-decoration-none text-info">Smart Login System</a>
+                  
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a  class=" text-white text-decoration-none btn btn-outline-info p-3" id="logoutBtn">Logout</a>
+                      </li>
+                      
+                      
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+            <div class="container form-container px-5 py-4 mt-5 text-center shadow-lg">
+                <h2 id="sayWelcomeH2"></h2>
+            </div>
+
+        </section>
+        
+           
+        <script src="../js/afterLogin.js"></script>
+    </body>
+</html>
+

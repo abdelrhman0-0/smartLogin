@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+        <section id="home">
+            <div class="container form-container px-5 py-4 mt-5 text-center shadow-lg">
+                
+                <h1 class="py-5 text-info">Smart Login System</h1>
+                <div class="alert alert-danger d-none ">This email is already exist</div>
+
+                <input type="email" class="form-control mb-3 bg-transparent" placeholder="Email">
+                <div class="alert alert-danger d-none mt-4">This username is taken</div>
+
+                <input type="text" class="form-control mb-3 bg-transparent" placeholder="User Name">
+                <div class="alert alert-danger d-none mt-4">Password should have at least 1 character</div>
+
+                <input type="password" class="form-control mb-5 bg-transparent" placeholder="Password">
+
+                <span id="successOrNot" class="text-success d-none">Success</span>
+                <a id="signUpBtn"  class="btn btn-outline-info w-100 my-3 ">Sign Up</a>
+                <span class="text-white">Do you have an account? <a  href="index.html">Sign in</a></span>
+            </div>
+
+        </section>
+        
+           
+        <script src="../js/signUp.js"></script>
+    </body>
+</html>
+

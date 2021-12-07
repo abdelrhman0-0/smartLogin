@@ -1,0 +1,44 @@
+ <html>
+    <head>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+
+
+        <section id="home">
+            <div id="before-login" class="container form-container px-5 py-4 mt-5 text-center shadow-lg">
+                <h1 class="py-5 text-info">Smart Login System</h1>
+                <input type="text" class="form-control mb-3 bg-transparent" placeholder="Email">
+                <input type="password" class="form-control mb-5 bg-transparent" placeholder="Password">
+                <div class="alert alert-danger d-none">Your email or password isn't correct</div>
+
+                <a id="signInBtn" class="btn btn-outline-info w-100 mb-3 ">Login</a>
+                <span class="text-white">Don’t have an account? <a  href="signUp.html">Sign up</a></span>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark d-none">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-decoration-none text-info">Smart Login System</a>
+                  
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a  class=" text-white text-decoration-none btn btn-outline-info p-3" id="logoutBtn">Logout</a>
+                      </li>
+                      
+                      
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+            <div id="after-login"  class="container form-container px-5 py-4 mt-5 text-center shadow-lg d-none">
+                
+            </div>
+
+        </section>
+        
+           
+        <script src="../js/main.js" ></script>
+    </body>
+</html>
+
