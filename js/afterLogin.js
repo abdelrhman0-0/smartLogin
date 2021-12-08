@@ -32,7 +32,7 @@ from our local storage to say welcome */
 })();
 
 function logout() {
-  logoutBtn.href = "index.html";
+  logoutBtn.href = "../index.html";
 }
 
 logoutBtn.addEventListener("click", logout);

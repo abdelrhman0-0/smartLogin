@@ -37,18 +37,22 @@ function checkLogin() {
 
     // checking if email isn't empty and password is right
 
-  }else if (currentIndex != undefined){
-    if (inputs[1].value == localStorageData[currentIndex].password) {
-      alertDiv.classList.add("d-none");
-      login();
-      
-  }
+  }else if (
+    currentIndex != undefined
+    &&inputs[1].value == localStorageData[currentIndex].password
+    && inputs[0].value == localStorageData[currentIndex].email
+    ){
+     
+  alertDiv.classList.add("d-none");
+  login();
 
+  
     // if email or password is not correct
 
   }else {
-    alertDiv.classList.remove("d-none");
     alertDiv.innerHTML = "Your email or password isn't correct";
+    alertDiv.classList.remove("d-none");
+    
 
   }
 
@@ -56,7 +60,7 @@ function checkLogin() {
 }
 
 function login() {
-  signInBtn.setAttribute("href", "afterLogin.html");
+  signInBtn.setAttribute("href", "html/afterLogin.html");
 }
 
 
